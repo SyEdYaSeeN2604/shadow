@@ -45,7 +45,7 @@ import org.xml.sax.SAXException
  */
 @CacheableTransformer
 class XmlAppendingTransformer implements Transformer {
-    public static final String XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
+    static final String XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
 
     @Input
     boolean ignoreDtd = true
